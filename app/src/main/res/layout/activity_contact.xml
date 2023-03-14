@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img2"
+    tools:context=".ContactActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/contact_manager_app"
+        android:textSize="28sp"
+        android:layout_marginStart="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20sp"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+    android:text="@string/add_contact"
+    />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#38BFFB"
+        app:hintTextColor="#38BFFB"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#38BFFB"
+            android:hint="@string/enter_your_name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#38BFFB"
+        app:hintTextColor="#38BFFB"
+        app:startIconDrawable="@drawable/ic_baseline_local_phone_24"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:inputType=""
+            android:layout_height="wrap_content"
+            android:textColor="#38BFFB"
+            android:hint="@string/enter_your_phone_number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#38BFFB"
+        app:hintTextColor="#38BFFB"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etUserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#38BFFB"
+            android:hint="@string/user_id" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnDetails"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="45dp"
+        android:backgroundTint="@color/purple_200"
+        app:cornerRadius="15dp"
+        android:layout_marginEnd="45dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="ADD DETAILS"/>
+</LinearLayout>

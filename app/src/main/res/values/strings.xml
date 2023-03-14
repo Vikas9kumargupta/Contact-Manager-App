@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="contacts">CONTACTS</string>
+    <string name="contact">CONTACT</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_in_with_social_media">Sign In with Social Media</string>
+    <string name="you_are_already_registered">You Are already Registered?</string>
+    <string name="enter_unique_id">Enter your unique ID</string>
+    <string name="enter_your_mail_address">Enter your Mail Address</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="password">Password</string>
+    <string name="you_are_not_registered">You are not Registered</string>
+    <string name="sign_up1">SIGN UP</string>
+    <string name="sign_in2">SIGN IN</string>
+    <string name="accept_all_terms_and_conditions">Accept all terms and Conditions</string>
+    <string name="contact_manager_app">CONTACT MANAGER APP</string>
+    <string name="add_contact">Add CONTACT</string>
+    <string name="enter_your_phone_number">Enter your Phone Number</string>
+    <string name="user_id">User ID</string>
+    <string name="congratulations">CONGRATULATIONS!!</string>
+</resources>
